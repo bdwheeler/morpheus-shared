@@ -1,0 +1,18 @@
+resource "resource-spec-template" "bunge-efs-spec" {
+  autoRun = false
+  category = bunge
+  failOnError = true
+  hasDeployment = false
+  name = bunge-efs-spec
+  runOnDeploy = false
+  runOnScale = false
+  template {
+    uuid = 60627cd3-73f0-4dae-b939-9e140244825c
+  }
+  templatePhase = provision
+  templateType = Terraform
+  type {
+    code = terraform
+  }
+  uuid = 6bbd2c95-a7a6-43db-a7ad-04ffb44e355a
+}
