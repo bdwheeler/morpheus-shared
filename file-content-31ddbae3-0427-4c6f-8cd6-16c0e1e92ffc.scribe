@@ -1,0 +1,12 @@
+resource "file-content" "31ddbae3-0427-4c6f-8cd6-16c0e1e92ffc" {
+  contentPath = bunge-samples/efs-test/main.tf
+  contentRef = test-branch-1
+  editable = true
+  enabled = true
+  fileVersion = 1
+  repository {
+    name = terraform-samples
+  }
+  sourceType = repository
+  uuid = 31ddbae3-0427-4c6f-8cd6-16c0e1e92ffc
+}

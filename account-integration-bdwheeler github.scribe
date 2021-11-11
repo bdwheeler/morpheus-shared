@@ -1,0 +1,11 @@
+resource "account-integration" "bdwheeler github" {
+  authKey = unsupported
+  category = cm-server
+  enabled = true
+  integrationType = unsupported
+  name = bdwheeler github
+  objectRefs = unsupported
+  optionTypes = unsupported
+  type = github
+  uuid = 4c4591fa-6837-4b44-8eec-7cbe46c645c2
+}

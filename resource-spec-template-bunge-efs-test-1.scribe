@@ -1,0 +1,17 @@
+resource "resource-spec-template" "bunge-efs-test-1" {
+  autoRun = false
+  failOnError = true
+  hasDeployment = false
+  name = bunge-efs-test-1
+  runOnDeploy = false
+  runOnScale = false
+  template {
+    uuid = 31ddbae3-0427-4c6f-8cd6-16c0e1e92ffc
+  }
+  templatePhase = provision
+  templateType = Terraform
+  type {
+    code = terraform
+  }
+  uuid = b99cdc6f-33d6-4237-a48f-ed9aa517454d
+}
