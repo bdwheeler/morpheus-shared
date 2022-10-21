@@ -1,5 +1,6 @@
 resource "file-content" "60627cd3-73f0-4dae-b939-9e140244825c" {
-  content = <<EOF#variables
+  content = <<EOF
+#variables
 variable "access_key" {
   sensitive = true
 }
@@ -38,7 +39,7 @@ resource "aws_efs_file_system" "efs" {
 EOF
   editable = true
   enabled = true
-  fileVersion = 1
-  sourceType = local
-  uuid = 60627cd3-73f0-4dae-b939-9e140244825c
+  fileVersion = "1"
+  sourceType = "local"
+  uuid = "60627cd3-73f0-4dae-b939-9e140244825c"
 }
