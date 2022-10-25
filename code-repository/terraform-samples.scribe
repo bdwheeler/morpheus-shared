@@ -1,1 +1,24 @@
-null
+resource "code-repository" "terraform-samples" {
+  dateCreated = 2020-05-06 22:00:36.0
+  uuid = "1fee00b7-1942-44f2-ad86-a6ec28be507d"
+  lastUpdated = 2022-10-05 04:21:18.0
+  active = true
+  privateRepo = false
+  serviceUrl = "https://github.com/bdwheeler/terraform-samples"
+  cacheRepo = false
+  displayName = "bdwheeler/terraform-samples"
+  orgName = "bdwheeler"
+  branches = []
+  defaultBranch = "master"
+  orgId = "1054647"
+  repoSize = 8224
+  name = "terraform-samples"
+  forkRepo = false
+  codeLanguage = "HCL"
+  scribeRepo = false
+  enabled = true
+  integration {
+    name = "bdwheeler github"
+  }
+  externalId = "119906370"
+}

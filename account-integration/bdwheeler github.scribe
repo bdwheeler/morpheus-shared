@@ -1,1 +1,12 @@
-null
+resource "account-integration" "bdwheeler github" {
+  optionTypes = []
+  uuid = "4c4591fa-6837-4b44-8eec-7cbe46c645c2"
+  objectRefs = []
+  name = "bdwheeler github"
+  type = "github"
+  integrationType {
+    code = "github"
+  }
+  category = "cm-server"
+  enabled = true
+}
