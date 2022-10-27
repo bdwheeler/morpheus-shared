@@ -1,0 +1,21 @@
+resource "resource-spec-template" "jabro-aws-vpc" {
+  template {
+    uuid = "3a2b3cfb-259f-425c-8c19-e6de12093ecf"
+  }
+  labels = []
+  hasDeployment = false
+  dateCreated = 2021-04-12 14:30:00.0
+  templatePhase = "provision"
+  runOnScale = false
+  uuid = "64684668-76ee-4fac-9248-dbd50122d993"
+  lastUpdated = 2021-04-12 14:30:00.0
+  runOnDeploy = false
+  templateType = "Terraform"
+  hidden = false
+  autoRun = false
+  failOnError = true
+  name = "jabro-aws-vpc"
+  type {
+    code = "terraform"
+  }
+}
