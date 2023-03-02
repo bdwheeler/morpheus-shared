@@ -1,0 +1,10 @@
+resource "file-content" "126cdfe0-64c2-402c-b0f1-6aa9f6e14bd8" {
+  editable = true
+  dateCreated = 2023-01-03 20:32:58.0
+  uuid = "126cdfe0-64c2-402c-b0f1-6aa9f6e14bd8"
+  lastUpdated = 2023-01-03 20:32:58.0
+  content = "echo "hello" > /tmp/hello.txt"
+  sourceType = "local"
+  fileVersion = "1"
+  enabled = true
+}

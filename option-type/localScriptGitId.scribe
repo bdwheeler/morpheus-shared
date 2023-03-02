@@ -1,0 +1,34 @@
+resource "option-type" "localScriptGitId" {
+  displayOrder = 1
+  exportEvar = false
+  labels = []
+  tenantEditable = false
+  ownerEditable = false
+  name = "Git Repo"
+  required = false
+  tenantVisible = true
+  optionSource = "codeRepositories"
+  showOnEdit = true
+  custom = false
+  editable = false
+  ignoreField = false
+  excludeFromSearch = false
+  code = "localScriptGitId"
+  fieldLabel = "Git Repo"
+  noBlank = false
+  secretField = false
+  groupExpand = false
+  global = true
+  fieldContext = "taskOptions"
+  showOnCreate = true
+  displayValueOnDetails = false
+  fieldCode = "gomorpheus.optiontype.GitRepo"
+  type = "select"
+  category = "localScript"
+  fieldName = "localScriptGitId"
+  creatable = true
+  contextualDefault = false
+  exportMeta = false
+  enabled = true
+  advanced = false
+}
