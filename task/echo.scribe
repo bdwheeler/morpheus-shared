@@ -1,7 +1,7 @@
 resource "task" "echo" {
   visibility = "private"
   optionTypes = []
-  taskOptions = [{uuid=399bd9dc-a704-4351-8514-7171cc2844ea}, {uuid=f8e54098-4338-4061-9cf9-db7d659cce77}, {uuid=df769fed-6fad-4f70-af3f-f812f46212bd}, {uuid=5edfcafe-80aa-480a-906d-6c318e233d7b}, {uuid=8b5cc7fb-3cec-4115-8ad6-0d30ed66d184}, {uuid=67bbaa28-5361-4029-ac68-60fa308141a8}, {uuid=f10d9cf3-9d7b-443f-8e82-3eb696cb670a}, {uuid=a860edbd-1278-4b08-98d0-7fa9ac2a32a9}]
+  taskOptions = [{uuid=8b5cc7fb-3cec-4115-8ad6-0d30ed66d184}, {uuid=399bd9dc-a704-4351-8514-7171cc2844ea}, {uuid=a860edbd-1278-4b08-98d0-7fa9ac2a32a9}, {uuid=5edfcafe-80aa-480a-906d-6c318e233d7b}, {uuid=67bbaa28-5361-4029-ac68-60fa308141a8}, {uuid=f8e54098-4338-4061-9cf9-db7d659cce77}, {uuid=f10d9cf3-9d7b-443f-8e82-3eb696cb670a}, {uuid=df769fed-6fad-4f70-af3f-f812f46212bd}]
   labels = []
   dateCreated = 2023-01-03 20:32:58.0
   code = "echo"
