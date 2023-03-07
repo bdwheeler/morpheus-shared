@@ -1,0 +1,21 @@
+resource "resource-spec-template" "case-67965 ingress spec" {
+  template {
+    uuid = "71dea15c-305d-463b-a489-b9dc2d799774"
+  }
+  labels = []
+  hasDeployment = false
+  dateCreated = 2023-02-07 17:24:48.0
+  templatePhase = "provision"
+  runOnScale = false
+  uuid = "c3c7ff6f-d058-4588-a480-994f6f64499a"
+  lastUpdated = 2023-02-07 17:24:48.0
+  runOnDeploy = false
+  templateType = "Kubernetes Spec"
+  hidden = false
+  autoRun = false
+  failOnError = true
+  name = "case-67965 ingress spec"
+  type {
+    code = "kubernetes"
+  }
+}
