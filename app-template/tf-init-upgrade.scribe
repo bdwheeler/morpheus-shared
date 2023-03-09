@@ -1,0 +1,18 @@
+resource "app-template" "tf-init-upgrade" {
+  visibility = "private"
+  roleAppTemplates = []
+  labels = []
+  dateCreated = 2023-02-08 18:32:44.0
+  uuid = ""
+  lastUpdated = 2023-02-08 18:32:44.0
+  active = true
+  options = []
+  templateType {
+    code = "terraform"
+  }
+  instanceTypes = []
+  environmentVariables = []
+  name = "tf-init-upgrade"
+  specTemplates = [{name=tf-init-upgrade}]
+  custom = false
+}
