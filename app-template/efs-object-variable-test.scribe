@@ -1,0 +1,18 @@
+resource "app-template" "efs-object-variable-test" {
+  visibility = "private"
+  roleAppTemplates = []
+  labels = []
+  dateCreated = 2023-02-06 19:34:55.0
+  uuid = ""
+  lastUpdated = 2023-02-06 19:34:55.0
+  active = true
+  options = []
+  templateType {
+    code = "terraform"
+  }
+  instanceTypes = []
+  environmentVariables = []
+  name = "efs-object-variable-test"
+  specTemplates = [{name=efs-object-variable-test}]
+  custom = false
+}
