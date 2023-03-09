@@ -1,0 +1,59 @@
+resource "container-type" "928a1615-0a2f-46d2-a637-963e70a79635" {
+  slave = false
+  shortName = "k8ingress"
+  containerScript = <<EOF
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nsights-ingress
+spec:
+  ingressClassName: nginx
+  tls:
+  - hosts:
+    - customer1.nsights-pharma.com
+    secretName: nsights-tlsserver-secret
+  rules:
+  - host: customer1.nsights-pharma.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: nsightscrm
+            port:
+              number: 80
+EOF
+  containerLogs = []
+  labels = []
+  exportHostname = false
+  logTypeCode = "docker"
+  uuid = "0cbf928d-7b90-4b38-a7db-fb42a847ae15"
+  containerVersion = "1.0"
+  actions = []
+  provisionType {
+    code = "kubernetes"
+  }
+  viewSet = "default"
+  hasSettings = false
+  privisionArguments = []
+  exportInstanceHostname = false
+  name = "kube-ingress-test-1"
+  containerMounts = []
+  specTemplates = []
+  ports = []
+  priorityOrder = 0
+  scripts = []
+  containerConfig = []
+  containerPorts = []
+  code = "928a1615-0a2f-46d2-a637-963e70a79635"
+  customType = false
+  entryPoint = ""
+  statTypeCode = "docker"
+  userDeploy = true
+  showServerLogs = false
+  environmentVariables = []
+  commEnabled = false
+  hasSslCert = false
+  templates = []
+}
