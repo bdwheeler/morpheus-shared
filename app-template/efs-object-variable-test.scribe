@@ -3,7 +3,7 @@ resource "app-template" "efs-object-variable-test" {
   roleAppTemplates = []
   labels = []
   dateCreated = "2023-02-06T19:34:55.000Z"
-  uuid = ""
+  uuid = "2352b96b-5079-4067-b310-0d76c8054a94"
   lastUpdated = "2023-02-06T19:34:55.000Z"
   active = true
   options = []
