@@ -1,30 +1,28 @@
 resource "instance-type-layout" "7dbda86a-6199-4bec-a521-763f9cff914b" {
-  optionTypes = []
   hasServiceUser = false
-  serverCount = 1
   labels = []
-  code = "7dbda86a-6199-4bec-a521-763f9cff914b"
   uuid = "ff4c3fe6-bb10-491d-abe7-c614d35388d4"
-  hasAutoScale = false
-  memoryRequirement = 0
   hasAdminUser = false
-  actions = []
   supportsConvertToManaged = false
-  instanceLevel = "user"
-  configs = []
+  actions = []
   provisionType {
     code = "kubernetes"
   }
-  instanceVersion = "1.0"
-  systemLayout = false
+  configs = []
   sortOrder = 0
   taskSets = []
-  environmentVariables = []
   name = "kube ingress"
+  specTemplates = [{name=case-67965 ingress spec}]
+  portCount = 1
+  serverCount = 1
+  code = "7dbda86a-6199-4bec-a521-763f9cff914b"
+  hasAutoScale = false
+  memoryRequirement = 0
+  instanceLevel = "user"
+  instanceVersion = "1.0"
+  systemLayout = false
+  environmentVariables = []
   networkLevel = "container"
   creatable = true
   containers = [{code=928a1615-0a2f-46d2-a637-963e70a79635}]
-  specTemplates = [{name=case-67965 ingress spec}]
-  enabled = true
-  portCount = 1
 }
