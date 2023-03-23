@@ -2,9 +2,9 @@ resource "app-template" "tf-init-upgrade" {
   visibility = "private"
   roleAppTemplates = []
   labels = []
-  dateCreated = 2023-02-08 18:32:44.0
+  dateCreated = "2023-02-08T18:32:44.000Z"
   uuid = ""
-  lastUpdated = 2023-02-08 18:32:44.0
+  lastUpdated = "2023-02-08T18:32:44.000Z"
   active = true
   options = []
   templateType {
