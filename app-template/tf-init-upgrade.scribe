@@ -3,7 +3,7 @@ resource "app-template" "tf-init-upgrade" {
   roleAppTemplates = []
   labels = []
   dateCreated = "2023-02-08T18:32:44.000Z"
-  uuid = ""
+  uuid = "572a2087-0766-488a-aa8d-a6009591c21e"
   lastUpdated = "2023-02-08T18:32:44.000Z"
   active = true
   options = []
