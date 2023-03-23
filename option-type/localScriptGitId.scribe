@@ -2,6 +2,7 @@ resource "option-type" "localScriptGitId" {
   displayOrder = 1
   exportEvar = false
   labels = []
+  uuid = ""
   tenantEditable = false
   ownerEditable = false
   name = "Git Repo"
