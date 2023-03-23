@@ -16,7 +16,6 @@ resource "code-repository" "terraform-samples" {
   forkRepo = false
   codeLanguage = "HCL"
   scribeRepo = false
-  enabled = true
   integration {
     name = "bdwheeler github"
   }
