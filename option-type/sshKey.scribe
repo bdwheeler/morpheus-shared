@@ -2,7 +2,7 @@ resource "option-type" "sshKey" {
   displayOrder = 2
   exportEvar = false
   labels = []
-  uuid = ""
+  uuid = "0b9eea0b-5263-4ac2-9e55-248e62fc32c8"
   tenantEditable = false
   ownerEditable = false
   name = "Key"

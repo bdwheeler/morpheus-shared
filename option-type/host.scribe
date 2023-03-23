@@ -2,7 +2,7 @@ resource "option-type" "host" {
   displayOrder = 0
   exportEvar = false
   labels = []
-  uuid = ""
+  uuid = "89cd97e2-7216-4452-9347-c3b6546b30d0"
   tenantEditable = false
   ownerEditable = false
   name = "IP Address"

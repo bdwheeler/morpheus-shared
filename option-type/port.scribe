@@ -2,7 +2,7 @@ resource "option-type" "port" {
   displayOrder = 1
   exportEvar = false
   labels = []
-  uuid = ""
+  uuid = "c0dd3041-8e64-4852-84e3-b6dc6c44be13"
   tenantEditable = false
   ownerEditable = false
   name = "Port"

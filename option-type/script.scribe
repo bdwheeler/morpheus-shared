@@ -2,7 +2,7 @@ resource "option-type" "script" {
   displayOrder = 6
   exportEvar = false
   labels = []
-  uuid = ""
+  uuid = "05207be2-eb67-47b8-b63b-8658f1d37ddd"
   tenantEditable = false
   ownerEditable = false
   format = "bash"

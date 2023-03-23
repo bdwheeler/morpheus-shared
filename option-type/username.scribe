@@ -3,7 +3,7 @@ resource "option-type" "username" {
   displayOrder = 3
   exportEvar = false
   labels = []
-  uuid = ""
+  uuid = "f804054e-6eb2-4e22-8dec-1e254f8387bb"
   tenantEditable = false
   ownerEditable = false
   name = "Username"

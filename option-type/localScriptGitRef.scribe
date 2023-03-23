@@ -2,7 +2,7 @@ resource "option-type" "localScriptGitRef" {
   displayOrder = 2
   exportEvar = false
   labels = []
-  uuid = ""
+  uuid = "1f64f66d-55dd-4680-85f1-b8c6c88c3179"
   tenantEditable = false
   ownerEditable = false
   placeHolder = "master"
