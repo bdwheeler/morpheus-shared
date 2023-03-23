@@ -30,6 +30,5 @@ resource "option-type" "localScriptGitRef" {
   creatable = true
   contextualDefault = false
   exportMeta = false
-  enabled = true
   advanced = false
 }
