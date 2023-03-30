@@ -30,6 +30,5 @@ resource "option-type" "script" {
   creatable = true
   contextualDefault = false
   exportMeta = false
-  enabled = true
   advanced = false
 }
