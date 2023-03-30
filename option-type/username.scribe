@@ -30,5 +30,6 @@ resource "option-type" "username" {
   creatable = true
   contextualDefault = false
   exportMeta = false
+  enabled = true
   advanced = false
 }
