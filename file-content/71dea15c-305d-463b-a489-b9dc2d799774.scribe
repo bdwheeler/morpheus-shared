@@ -28,4 +28,5 @@ spec:
 EOF
   sourceType = "local"
   fileVersion = "1"
+  enabled = true
 }
