@@ -29,5 +29,6 @@ resource "option-type" "port" {
   creatable = true
   contextualDefault = false
   exportMeta = false
+  enabled = true
   advanced = false
 }
