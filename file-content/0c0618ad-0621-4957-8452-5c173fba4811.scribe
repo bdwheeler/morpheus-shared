@@ -10,4 +10,5 @@ resource "file-content" "0c0618ad-0621-4957-8452-5c173fba4811" {
   contentRef = "main"
   sourceType = "repository"
   fileVersion = "1"
+  enabled = true
 }
