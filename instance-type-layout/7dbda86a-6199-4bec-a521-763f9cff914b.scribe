@@ -1,4 +1,5 @@
 resource "instance-type-layout" "7dbda86a-6199-4bec-a521-763f9cff914b" {
+  optionTypes = []
   hasServiceUser = false
   labels = []
   uuid = "ff4c3fe6-bb10-491d-abe7-c614d35388d4"
@@ -25,4 +26,5 @@ resource "instance-type-layout" "7dbda86a-6199-4bec-a521-763f9cff914b" {
   networkLevel = "container"
   creatable = true
   containers = [{code=928a1615-0a2f-46d2-a637-963e70a79635}]
+  enabled = true
 }
