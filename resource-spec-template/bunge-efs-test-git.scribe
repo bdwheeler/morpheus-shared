@@ -4,11 +4,9 @@ resource "resource-spec-template" "bunge-efs-test-git" {
   }
   labels = []
   hasDeployment = false
-  dateCreated = 2021-06-16 19:27:53.0
   templatePhase = "provision"
   runOnScale = false
   uuid = "b99cdc6f-33d6-4237-a48f-ed9aa517454d"
-  lastUpdated = 2022-10-24 20:39:18.0
   runOnDeploy = false
   templateType = "Terraform"
   hidden = false

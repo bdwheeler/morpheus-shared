@@ -4,11 +4,9 @@ resource "resource-spec-template" "jabro-aws-vpc" {
   }
   labels = []
   hasDeployment = false
-  dateCreated = 2021-04-12 14:30:00.0
   templatePhase = "provision"
   runOnScale = false
   uuid = "64684668-76ee-4fac-9248-dbd50122d993"
-  lastUpdated = 2021-04-12 14:30:00.0
   runOnDeploy = false
   templateType = "Terraform"
   hidden = false
