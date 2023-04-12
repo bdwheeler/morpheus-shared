@@ -44,7 +44,7 @@ output "aws_vpc" {
 EOF
   editable = true
   enabled = true
-  fileVersion = 1
-  sourceType = local
-  uuid = 3a2b3cfb-259f-425c-8c19-e6de12093ecf
+  fileVersion = "1"
+  sourceType = "local"
+  uuid = "3a2b3cfb-259f-425c-8c19-e6de12093ecf"
 }
