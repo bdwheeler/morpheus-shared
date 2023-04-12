@@ -1,9 +1,7 @@
 resource "file-content" "31ddbae3-0427-4c6f-8cd6-16c0e1e92ffc" {
   editable = true
-  dateCreated = 2021-06-16 19:27:53.0
   contentPath = "bunge-samples/efs-test/main.tf"
   uuid = "31ddbae3-0427-4c6f-8cd6-16c0e1e92ffc"
-  lastUpdated = 2022-10-24 20:39:18.0
   repository {
     name = "terraform-samples"
   }
