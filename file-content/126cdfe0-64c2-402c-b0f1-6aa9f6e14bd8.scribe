@@ -1,10 +1,10 @@
 resource "file-content" "126cdfe0-64c2-402c-b0f1-6aa9f6e14bd8" {
-  editable = true
-  dateCreated = "2023-01-03T20:32:58.000Z"
   uuid = "126cdfe0-64c2-402c-b0f1-6aa9f6e14bd8"
-  lastUpdated = "2023-01-03T20:32:58.000Z"
   content = "echo "hello" > /tmp/hello.txt"
-  sourceType = "local"
-  fileVersion = "1"
+  dateCreated = "2023-01-03T20:32:58.000Z"
+  editable = true
   enabled = true
+  fileVersion = "1"
+  lastUpdated = "2023-01-03T20:32:58.000Z"
+  sourceType = "local"
 }
