@@ -1,9 +1,8 @@
 resource "container-type-set" "928a1615-0a2f-46d2-a637-963e70a79635" {
   code = "928a1615-0a2f-46d2-a637-963e70a79635"
-  dynamicCount = false
-  containerType {
-    code = "928a1615-0a2f-46d2-a637-963e70a79635"
-  }
+  uuid = "d18fa64a-12f3-47bd-b7d5-4d643affe40d"
   containerCount = 1
+  containerType = { code = "928a1615-0a2f-46d2-a637-963e70a79635" }
+  dynamicCount = false
   priorityOrder = 0
 }
