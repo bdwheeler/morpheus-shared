@@ -1,0 +1,32 @@
+resource "file-content" "71dea15c-305d-463b-a489-b9dc2d799774" {
+  uuid = "71dea15c-305d-463b-a489-b9dc2d799774"
+  content = <<EOF
+apiVersion: networking.k8s.io/v1
+kind: Ingress
+metadata:
+  name: nsights-ingress
+spec:
+  ingressClassName: nginx
+  tls:
+  - hosts:
+    - customer1.nsights-pharma.com
+    secretName: nsights-tlsserver-secret
+  rules:
+  - host: customer1.nsights-pharma.com
+    http:
+      paths:
+      - path: /
+        pathType: Prefix
+        backend:
+          service:
+            name: nsightscrm
+            port:
+              number: 80
+EOF
+  dateCreated = "2023-02-07T17:24:48.000Z"
+  editable = true
+  enabled = true
+  fileVersion = "1"
+  lastUpdated = "2023-02-07T17:24:48.000Z"
+  sourceType = "local"
+}
