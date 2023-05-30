@@ -1,0 +1,34 @@
+resource "option-type" "localScriptGitRef" {
+  code = "localScriptGitRef"
+  name = "Git Ref"
+  uuid = "1f64f66d-55dd-4680-85f1-b8c6c88c3179"
+  category = "localScript"
+  advanced = false
+  contextualDefault = false
+  creatable = true
+  custom = false
+  displayOrder = 2
+  displayValueOnDetails = false
+  editable = false
+  enabled = true
+  excludeFromSearch = false
+  exportEvar = false
+  exportMeta = false
+  fieldCode = "gomorpheus.optiontype.GitRef"
+  fieldContext = "taskOptions"
+  fieldLabel = "Git Ref"
+  fieldName = "localScriptGitRef"
+  global = true
+  groupExpand = false
+  ignoreField = false
+  noBlank = false
+  ownerEditable = false
+  placeHolder = "master"
+  required = false
+  secretField = false
+  showOnCreate = true
+  showOnEdit = true
+  tenantEditable = false
+  tenantVisible = true
+  type = "text"
+}
