@@ -1,0 +1,12 @@
+resource "file-content" "0c0618ad-0621-4957-8452-5c173fba4811" {
+  uuid = "0c0618ad-0621-4957-8452-5c173fba4811"
+  contentPath = "/testing/init-upgrade/main.tf"
+  contentRef = "main"
+  dateCreated = "2023-02-08T18:30:45.000Z"
+  editable = true
+  enabled = true
+  fileVersion = "1"
+  lastUpdated = "2023-02-08T18:30:45.000Z"
+  repository = { name = "terraform-samples" }
+  sourceType = "repository"
+}

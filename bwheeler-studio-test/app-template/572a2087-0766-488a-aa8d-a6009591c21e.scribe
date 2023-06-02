@@ -1,0 +1,11 @@
+resource "app-template" "572a2087-0766-488a-aa8d-a6009591c21e" {
+  name = "tf-init-upgrade"
+  uuid = "572a2087-0766-488a-aa8d-a6009591c21e"
+  active = true
+  custom = false
+  dateCreated = "2023-02-08T18:32:44.000Z"
+  lastUpdated = "2023-02-08T18:32:44.000Z"
+  specTemplates = [ { uuid = "6aefe912-dc83-449b-982f-0b7f4c68da41" } ]
+  templateType = { code = "terraform" }
+  visibility = "private"
+}
