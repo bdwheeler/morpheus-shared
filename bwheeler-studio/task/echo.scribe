@@ -7,10 +7,7 @@ resource "task" "echo" {
   executeTarget = "resource"
   labels = [ { name = "export" } ]
   lastUpdated = "2023-05-26T19:51:59.000Z"
-  retryCount = 5
-  retryDelaySeconds = 10
-  retryable = false
-  taskOptions = [
+  options = [
     {
       uuid = "399bd9dc-a704-4351-8514-7171cc2844ea"
       optionType = { code = "username" }
@@ -25,8 +22,8 @@ resource "task" "echo" {
     },
     {
       uuid = "67bbaa28-5361-4029-ac68-60fa308141a8"
+      content = { uuid = "126cdfe0-64c2-402c-b0f1-6aa9f6e14bd8" }
       optionType = { code = "script" }
-      template = { uuid = "126cdfe0-64c2-402c-b0f1-6aa9f6e14bd8" }
     },
     {
       uuid = "8b5cc7fb-3cec-4115-8ad6-0d30ed66d184"
@@ -49,6 +46,9 @@ resource "task" "echo" {
       optionType = { code = "localScriptGitId" }
     }
   ]
+  retryCount = 5
+  retryDelaySeconds = 10
+  retryable = false
   taskType = { code = "script" }
   visibility = "private"
 }
