@@ -1,0 +1,11 @@
+resource "app-template" "2352b96b-5079-4067-b310-0d76c8054a94" {
+  name = "efs-object-variable-test"
+  uuid = "2352b96b-5079-4067-b310-0d76c8054a94"
+  active = true
+  custom = false
+  dateCreated = "2023-02-06T19:34:55.000Z"
+  lastUpdated = "2023-02-06T19:34:55.000Z"
+  specTemplates = [ { uuid = "94c8499d-b8e6-458c-bd79-25e7ea9080d7" } ]
+  templateType = { code = "terraform" }
+  visibility = "private"
+}
