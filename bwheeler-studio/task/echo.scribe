@@ -7,7 +7,7 @@ resource "task" "echo" {
   executeTarget = "resource"
   labels = [ { name = "export" } ]
   lastUpdated = "2023-05-26T19:51:59.000Z"
-  options = [ { optionType = { code = "localScriptGitId" } } ]
+  options = [ { optionType = { code = "port" } } ]
   retryCount = 5
   retryDelaySeconds = 10
   retryable = false
