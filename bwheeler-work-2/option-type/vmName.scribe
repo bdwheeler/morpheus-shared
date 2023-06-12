@@ -1,0 +1,31 @@
+resource "option-type" "vmName" {
+  code = "vmName"
+  name = "vm name"
+  uuid = ""
+  advanced = false
+  contextualDefault = false
+  creatable = true
+  custom = false
+  displayOrder = 0
+  displayValueOnDetails = false
+  editable = false
+  enabled = true
+  excludeFromSearch = false
+  exportEvar = false
+  exportMeta = false
+  fieldContext = "config.customOptions"
+  fieldLabel = "vm name"
+  fieldName = "vmName"
+  global = true
+  groupExpand = false
+  ignoreField = false
+  noBlank = false
+  ownerEditable = false
+  required = true
+  secretField = false
+  showOnCreate = true
+  showOnEdit = false
+  tenantEditable = false
+  tenantVisible = true
+  type = "text"
+}
