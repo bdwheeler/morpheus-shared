@@ -1,0 +1,8 @@
+resource "account-integration" "bdwheeler github" {
+  name = "bdwheeler github"
+  uuid = "189a60d0-f5af-4b5d-86c5-4306dda7892c"
+  category = "cm-server"
+  integrationType = { code = "github" }
+  serviceThrottleRate = 0
+  type = "github"
+}
