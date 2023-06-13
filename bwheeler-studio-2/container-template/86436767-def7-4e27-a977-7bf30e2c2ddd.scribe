@@ -1,0 +1,16 @@
+resource "container-template" "86436767-def7-4e27-a977-7bf30e2c2ddd" {
+  code = "86436767-def7-4e27-a977-7bf30e2c2ddd"
+  name = "bw-test-template-2"
+  uuid = "bfadc1d6-0d1e-436b-b2d7-a7f0d0769024"
+  autoRun = true
+  dateCreated = "2023-06-13T16:08:42.000Z"
+  failOnError = true
+  fileName = "hello-2.txt"
+  filePath = "/tmp"
+  labels = [ "export", "qa" ]
+  lastUpdated = "2023-06-13T16:11:50.000Z"
+  runOnDeploy = false
+  runOnScale = false
+  template = "hello 2"
+  templatePhase = "provision"
+}
