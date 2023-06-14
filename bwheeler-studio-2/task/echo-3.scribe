@@ -1,0 +1,7 @@
+resource "task" "echo-3" {
+  code = "echo-3"
+  name = "echo hello 3"
+  executeTarget = "resource"
+  labels = [ "export" ]
+  taskType = { code = "script" }
+}
