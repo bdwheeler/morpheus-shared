@@ -1,0 +1,9 @@
+resource "resource-spec-template" "c3c7ff6f-d058-4588-a480-994f6f64499a" {
+  name = "case-67965 ingress spec"
+  uuid = "c3c7ff6f-d058-4588-a480-994f6f64499a"
+  dateCreated = "2023-02-07T17:24:48.000Z"
+  lastUpdated = "2023-02-07T17:24:48.000Z"
+  template = { uuid = "71dea15c-305d-463b-a489-b9dc2d799774" }
+  templateType = "Kubernetes Spec"
+  type = { code = "kubernetes" }
+}
