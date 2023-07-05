@@ -1,0 +1,9 @@
+resource "app-template" "tf-init-upgrade" {
+  name = "tf-init-upgrade"
+  uuid = "572a2087-0766-488a-aa8d-a6009591c21e"
+  config = "{\"name\":\"tf-init-upgrade\",\"autoValidate\":true,\"terraform\":{\"tfVersion\":\"~> 1.3.0\",\"refreshMode\":\"manual\",\"backendType\":\"internal\",\"timeoutMode\":\"one-hour\",\"configType\":\"spec\"},\"type\":\"terraform\",\"config\":{\"specs\":[{\"id\":91,\"value\":91,\"name\":\"tf-init-upgrade\"}]},\"image\":\"/assets/apps/blueprint-terraform.png\"}"
+  dateCreated = "2023-02-08T18:32:44.000Z"
+  lastUpdated = "2023-02-08T18:32:44.000Z"
+  specTemplates = [ { uuid = "6aefe912-dc83-449b-982f-0b7f4c68da41" } ]
+  templateType = { code = "terraform" }
+}
