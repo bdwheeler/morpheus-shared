@@ -1,0 +1,10 @@
+resource "task" "echo" {
+  code = "echo"
+  name = "echo hello"
+  uuid = "4e1dd08e-1dd4-4398-8228-c05ef660a9a2"
+  dateCreated = "2023-01-03T20:32:58.000Z"
+  executeTarget = "resource"
+  labels = [ "export" ]
+  lastUpdated = "2023-06-13T15:46:05.000Z"
+  taskType = { code = "script" }
+}
