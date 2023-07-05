@@ -1,0 +1,9 @@
+resource "resource-spec-template" "94c8499d-b8e6-458c-bd79-25e7ea9080d7" {
+  name = "efs-object-variable-test"
+  uuid = "94c8499d-b8e6-458c-bd79-25e7ea9080d7"
+  dateCreated = "2023-02-06T19:31:38.000Z"
+  lastUpdated = "2023-02-06T19:31:38.000Z"
+  template = { uuid = "7e56ecf2-3204-4598-b0ad-a44c28e7ffc8" }
+  templateType = "Terraform"
+  type = { code = "terraform" }
+}

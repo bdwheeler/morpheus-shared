@@ -1,0 +1,9 @@
+resource "app-template" "efs-object-variable-test" {
+  name = "efs-object-variable-test"
+  uuid = "2352b96b-5079-4067-b310-0d76c8054a94"
+  config = "{\"name\":\"efs-object-variable-test\",\"autoValidate\":true,\"terraform\":{\"tfVersion\":\"~> 1.2.0\",\"refreshMode\":\"manual\",\"backendType\":\"internal\",\"timeoutMode\":\"one-hour\",\"commandOptions\":\"\",\"configType\":\"spec\"},\"type\":\"terraform\",\"config\":{\"specs\":[{\"id\":89,\"value\":89,\"name\":\"efs-object-variable-test\"}]},\"image\":\"/assets/apps/blueprint-terraform.png\"}"
+  dateCreated = "2023-02-06T19:34:55.000Z"
+  lastUpdated = "2023-02-06T19:34:55.000Z"
+  specTemplates = [ { uuid = "94c8499d-b8e6-458c-bd79-25e7ea9080d7" } ]
+  templateType = { code = "terraform" }
+}
