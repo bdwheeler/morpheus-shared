@@ -1,0 +1,16 @@
+resource "task" "echo" {
+  code = "echo"
+  name = "echo hello"
+  uuid = "4e1dd08e-1dd4-4398-8228-c05ef660a9a2"
+  dateCreated = "2023-01-03T20:32:58.000Z"
+  executeTarget = "resource"
+  labels = [ "export", "test" ]
+  lastUpdated = "2023-07-13T21:12:47.000Z"
+  options = [
+    {
+      content = { uuid = "126cdfe0-64c2-402c-b0f1-6aa9f6e14bd8" }
+      optionType = { code = "script" }
+    }
+  ]
+  taskType = { code = "script" }
+}
