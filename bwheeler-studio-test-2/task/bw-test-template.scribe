@@ -1,0 +1,21 @@
+resource "task" "bw-test-template" {
+  name = "bw-test-template"
+  uuid = "2b917023-ef75-444d-970f-7da302764309"
+  dateCreated = "2023-07-14T15:49:11.000Z"
+  executeTarget = "resource"
+  labels = [ "test" ]
+  lastUpdated = "2023-07-14T15:49:11.000Z"
+  options = [
+    {
+      optionType = { code = "containerTemplateId" }
+      task = { name = "bw-test-template" }
+      value = { code = "bd9ed76f-63da-432a-8e0b-a4109baa54f1" }
+    },
+    {
+      optionType = { code = "containerTemplate" }
+      task = { name = "bw-test-template" }
+      value = "bw-test-template"
+    }
+  ]
+  taskType = { code = "containerTemplate" }
+}
