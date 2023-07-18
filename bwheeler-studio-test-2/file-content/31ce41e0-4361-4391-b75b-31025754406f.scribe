@@ -1,0 +1,15 @@
+resource "file-content" "31ce41e0-4361-4391-b75b-31025754406f" {
+  uuid = "31ce41e0-4361-4391-b75b-31025754406f"
+  content = <<EOF
+echo "shell: <%=results.shell.ping%>"
+echo "ssh: <%=results.ssh.flash%>"
+echo "groovy: <%=results.groovy%>"
+echo "ruby: <%=results.ruby%>"
+echo "python: <%=results.python%>"
+echo "libScript: <%=results.libscript%>"
+echo "http: <%=results.http%>"
+echo "javascript: <%=results.js%>"
+EOF
+  dateCreated = "2023-07-14T01:57:12.000Z"
+  lastUpdated = "2023-07-14T01:57:12.000Z"
+}

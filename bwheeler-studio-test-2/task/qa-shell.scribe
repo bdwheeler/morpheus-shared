@@ -1,0 +1,22 @@
+resource "task" "qa-shell" {
+  code = "qa-shell"
+  name = "qa test shell script"
+  uuid = "aece1a3f-b2b3-4863-ab68-6d2217f9cd2c"
+  dateCreated = "2023-07-14T01:57:12.000Z"
+  executeTarget = "resource"
+  labels = [ "export" ]
+  lastUpdated = "2023-07-14T01:57:12.000Z"
+  options = [
+    {
+      content = { uuid = "31ce41e0-4361-4391-b75b-31025754406f" }
+      optionType = { code = "script" }
+      task = { code = "qa-shell" }
+    },
+    {
+      optionType = { code = "shell.sudo" }
+      task = { code = "qa-shell" }
+      value = "on"
+    }
+  ]
+  taskType = { code = "script" }
+}
