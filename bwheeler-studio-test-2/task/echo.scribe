@@ -10,6 +10,7 @@ resource "task" "echo" {
     {
       content = { uuid = "126cdfe0-64c2-402c-b0f1-6aa9f6e14bd8" }
       optionType = { code = "script" }
+      task = { code = "echo" }
     }
   ]
   taskType = { code = "script" }
