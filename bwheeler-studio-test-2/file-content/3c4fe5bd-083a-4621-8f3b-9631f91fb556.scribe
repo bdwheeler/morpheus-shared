@@ -1,0 +1,9 @@
+resource "file-content" "3c4fe5bd-083a-4621-8f3b-9631f91fb556" {
+  uuid = "3c4fe5bd-083a-4621-8f3b-9631f91fb556"
+  content = <<EOF
+echo "hello" > /tmp/hello.txt
+
+EOF
+  dateCreated = "2023-07-14T19:52:15.000Z"
+  lastUpdated = "2023-07-14T19:52:15.000Z"
+}
