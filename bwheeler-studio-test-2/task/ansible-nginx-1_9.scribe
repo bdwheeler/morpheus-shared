@@ -1,0 +1,27 @@
+resource "task" "ansible-nginx-1_9" {
+  code = "ansible-nginx-1_9"
+  name = "Ansible Nginx 1.9"
+  uuid = "6d832cb4-2f48-44eb-aa85-4ee12e56a4d2"
+  dateCreated = "2023-06-21T21:29:32.000Z"
+  executeTarget = "resource"
+  labels = [ "ansible" ]
+  lastUpdated = "2023-06-21T21:29:32.000Z"
+  options = [
+    {
+      optionType = { code = "ansibleGitId" }
+      task = { code = "ansible-nginx-1_9" }
+      value = { name = "Labs Ansible" }
+    },
+    {
+      optionType = { code = "ansibleGitRef" }
+      task = { code = "ansible-nginx-1_9" }
+      value = "master"
+    },
+    {
+      optionType = { code = "ansiblePlaybook" }
+      task = { code = "ansible-nginx-1_9" }
+      value = "nginx-1_9"
+    }
+  ]
+  taskType = { code = "ansibleTask" }
+}
