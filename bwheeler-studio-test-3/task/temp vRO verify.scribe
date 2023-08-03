@@ -1,0 +1,9 @@
+resource "task" "temp vRO verify" {
+  name = "temp vRO verify"
+  uuid = "f3841ba1-81ed-4a91-b445-d9e88e8c7193"
+  dateCreated = "2023-07-11T19:07:48.000Z"
+  executeTarget = "local"
+  labels = [ "temp" ]
+  lastUpdated = "2023-07-11T19:07:48.000Z"
+  taskType = { code = "script" }
+}
