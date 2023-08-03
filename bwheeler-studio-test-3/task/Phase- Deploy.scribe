@@ -1,0 +1,17 @@
+resource "task" "Phase: Deploy" {
+  name = "Phase: Deploy"
+  uuid = "b7ddbc9d-3f04-44f5-90e6-7a1528dc6905"
+  dateCreated = "2023-07-11T19:07:48.000Z"
+  executeTarget = "resource"
+  lastUpdated = "2023-07-11T19:07:48.000Z"
+  options = [
+    {
+      optionType = { code = "script" }
+      value = <<EOFSCRIBE
+echo "$(date) - deploy" | tee -a /tmp/phase_task.txt
+echo whaddup
+EOFSCRIBE
+    }
+  ]
+  taskType = { code = "script" }
+}

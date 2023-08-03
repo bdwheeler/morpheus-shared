@@ -1,0 +1,17 @@
+resource "task" "Phase: Provision" {
+  name = "Phase: Provision"
+  uuid = "aa6f7fc6-3226-4b95-a8a2-8e290467c237"
+  dateCreated = "2023-07-11T19:07:48.000Z"
+  executeTarget = "resource"
+  lastUpdated = "2023-07-11T19:07:48.000Z"
+  options = [
+    {
+      optionType = { code = "script" }
+      value = <<EOFSCRIBE
+echo "$(date) - provision" | tee -a /tmp/phase_task.txt
+echo whaddup
+EOFSCRIBE
+    }
+  ]
+  taskType = { code = "script" }
+}

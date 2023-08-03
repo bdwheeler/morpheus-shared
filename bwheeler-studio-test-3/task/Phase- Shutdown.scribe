@@ -1,0 +1,8 @@
+resource "task" "Phase: Shutdown" {
+  name = "Phase: Shutdown"
+  uuid = "ac2bf8e3-e809-427f-913f-f9c869cf1758"
+  dateCreated = "2023-07-11T19:07:48.000Z"
+  executeTarget = "resource"
+  lastUpdated = "2023-07-11T19:07:48.000Z"
+  taskType = { code = "script" }
+}

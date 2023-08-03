@@ -1,0 +1,14 @@
+resource "task" "Phase: Provision Two" {
+  name = "Phase: Provision Two"
+  uuid = "6c821c1b-1a97-4785-a63e-edb42c537141"
+  dateCreated = "2023-07-11T19:07:48.000Z"
+  executeTarget = "resource"
+  lastUpdated = "2023-07-11T19:07:48.000Z"
+  options = [
+    {
+      optionType = { code = "script" }
+      value = "echo \"$(date) - provision2\" | tee -a /tmp/phase_task.txt"
+    }
+  ]
+  taskType = { code = "script" }
+}

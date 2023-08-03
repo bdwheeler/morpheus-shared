@@ -1,0 +1,8 @@
+resource "task" "Phase: Startup" {
+  name = "Phase: Startup"
+  uuid = "1e80fdb6-79c9-42ec-bf52-9a483d70b910"
+  dateCreated = "2023-07-11T19:07:48.000Z"
+  executeTarget = "resource"
+  lastUpdated = "2023-07-11T19:07:48.000Z"
+  taskType = { code = "script" }
+}

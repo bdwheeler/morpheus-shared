@@ -1,0 +1,18 @@
+resource "task" "Phase: Teardown" {
+  name = "Phase: Teardown"
+  uuid = "02b6387b-c91b-4305-bb11-f324bfcf9516"
+  dateCreated = "2023-07-11T19:07:48.000Z"
+  executeTarget = "local"
+  lastUpdated = "2023-07-11T19:07:48.000Z"
+  options = [
+    {
+      optionType = { code = "script" }
+      value = <<EOFSCRIBE
+echo "$(date) - teardown" | tee -a /tmp/phase_task.txt
+echo whaddup
+EOFSCRIBE
+    },
+    { optionType = { code = "shell.sudo" }, value = "on" }
+  ]
+  taskType = { code = "script" }
+}

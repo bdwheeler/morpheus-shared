@@ -1,0 +1,9 @@
+resource "task" "Phase: Scale Down" {
+  name = "Phase: Scale Down"
+  uuid = "1af11d39-bb5d-4587-9835-22959f71484b"
+  dateCreated = "2023-07-11T19:07:48.000Z"
+  executeTarget = "local"
+  lastUpdated = "2023-07-11T19:07:48.000Z"
+  options = [ { optionType = { code = "shell.sudo" }, value = "on" } ]
+  taskType = { code = "script" }
+}
