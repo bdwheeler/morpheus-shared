@@ -1,0 +1,17 @@
+resource "task" "temp" {
+  code = "temp"
+  name = "Hello World"
+  uuid = "923b203a-c17f-4a84-9825-73eba263edb9"
+  dateCreated = "2023-07-11T19:07:48.000Z"
+  executeTarget = "resource"
+  labels = [ "hello" ]
+  lastUpdated = "2023-07-11T19:07:48.000Z"
+  options = [
+    {
+      optionType = { code = "script" }
+      value = "echo \"hello world!\" | tee -a /tmp/hello.txt"
+    },
+    { optionType = { code = "shell.sudo" }, value = "on" }
+  ]
+  taskType = { code = "script" }
+}
