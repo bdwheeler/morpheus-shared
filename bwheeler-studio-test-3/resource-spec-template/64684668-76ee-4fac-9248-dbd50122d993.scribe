@@ -1,0 +1,9 @@
+resource "resource-spec-template" "64684668-76ee-4fac-9248-dbd50122d993" {
+  name = "jabro-aws-vpc"
+  uuid = "64684668-76ee-4fac-9248-dbd50122d993"
+  dateCreated = "2023-04-18T20:35:31.000Z"
+  lastUpdated = "2023-04-18T20:35:31.000Z"
+  template = { uuid = "3a2b3cfb-259f-425c-8c19-e6de12093ecf" }
+  templateType = "Terraform"
+  type = { code = "terraform" }
+}
