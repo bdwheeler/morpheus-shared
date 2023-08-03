@@ -1,0 +1,21 @@
+resource "task" "shell ssh test" {
+  name = "shell ssh test"
+  uuid = "bfc40f44-a93a-40df-872e-7e09383ad877"
+  dateCreated = "2023-07-14T19:52:15.000Z"
+  executeTarget = "remote"
+  lastUpdated = "2023-07-14T19:52:15.000Z"
+  options = [
+    {
+      optionType = { code = "sshKey" }
+      value = { name = "bwheeler-rsa" }
+    },
+    { optionType = { code = "host" }, value = "127.0.0.1" },
+    { optionType = { code = "port" }, value = "22" },
+    { optionType = { code = "username" }, value = "bwheeler" },
+    {
+      content = { uuid = "3c4fe5bd-083a-4621-8f3b-9631f91fb556" }
+      optionType = { code = "script" }
+    }
+  ]
+  taskType = { code = "script" }
+}

@@ -1,0 +1,9 @@
+resource "account-key-pair" "bwheeler-rsa" {
+  name = "bwheeler-rsa"
+  uuid = "f3cb7a52-bf68-4ff7-a62a-1e4a819c48f5"
+  accountId = 1
+  dateCreated = "2022-11-22T18:07:11.000Z"
+  lastUpdated = "2022-11-22T18:07:11.000Z"
+  publicKey = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC4laNjYdLJyK1IQX8mCGhRA42y2EUvijHOYXU+KK9k7pQb4RO5yE5x0+NdK95jyjjfPCm9bESZnEfwwV62tMH5zgAi52MzHGef49Au7nW/plwUUzdogFR7RLmIHkIr1lQv6WKMHbvWLESWMcrTKqc0/oeC5BMGwB2YAwbFecaxe3aMwhFRrO1K1eS6ULapPZ4+6x0Gvfo9nOez2PjuHjdd5rvXNRSGL2SFFGSzqeLakbTaSSaCLyHKao85KGqkzSbUbFsApP3SbP+QzyBZC+4Q/tZO6Gddiyc5R2SD6MqG5wxf18CfAlxw9oevddsZeqkX2x+ZvFDiICDDtmoB2G0R bwheeler@bwheeler-mac.local"
+  scope = "account"
+}
