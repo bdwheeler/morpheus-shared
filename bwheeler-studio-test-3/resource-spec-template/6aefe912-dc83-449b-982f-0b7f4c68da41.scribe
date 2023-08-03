@@ -1,0 +1,17 @@
+resource "resource-spec-template" "6aefe912-dc83-449b-982f-0b7f4c68da41" {
+  name = "tf-init-upgrade"
+  uuid = "6aefe912-dc83-449b-982f-0b7f4c68da41"
+  config = {
+    cloudformation = {
+      _CAPABILITY_AUTO_EXPAND = ""
+      _CAPABILITY_NAMED_IAM = ""
+      _IAM = ""
+    }
+    terraform = { tfVersion = "" }
+  }
+  dateCreated = "2023-02-08T18:30:45.000Z"
+  lastUpdated = "2023-02-08T18:30:45.000Z"
+  template = { uuid = "0c0618ad-0621-4957-8452-5c173fba4811" }
+  templateType = "Terraform"
+  type = { code = "terraform" }
+}
