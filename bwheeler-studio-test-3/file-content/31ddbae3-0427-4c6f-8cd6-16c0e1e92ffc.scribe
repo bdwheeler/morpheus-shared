@@ -1,0 +1,9 @@
+resource "file-content" "31ddbae3-0427-4c6f-8cd6-16c0e1e92ffc" {
+  uuid = "31ddbae3-0427-4c6f-8cd6-16c0e1e92ffc"
+  contentPath = "bunge-samples/efs-test/main.tf"
+  contentRef = "test-branch-1"
+  dateCreated = "2023-04-18T20:35:31.000Z"
+  lastUpdated = "2023-07-13T00:06:17.000Z"
+  repository = { name = "terraform-samples" }
+  sourceType = "repository"
+}

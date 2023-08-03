@@ -1,17 +1,16 @@
 resource "code-repository" "terraform-samples" {
   name = "terraform-samples"
-  uuid = "4079fb3b-38a2-4374-af8c-28df12e1e3b6"
+  uuid = "04ad3b61-d991-44f9-968a-4aad87e52fa4"
   codeLanguage = "HCL"
-  dateCreated = "2022-04-08T16:58:02.000Z"
-  defaultBranch = "master"
-  displayName = "tommymarks/terraform-samples"
-  externalId = "124150153"
-  forkRepo = true
-  integration = { name = "Github - TM" }
-  lastUpdated = "2023-07-11T19:07:48.000Z"
-  orgId = "1141849"
-  orgName = "tommymarks"
+  dateCreated = "2023-07-11T18:58:22.000Z"
+  defaultBranch = "main"
+  displayName = "bdwheeler/terraform-samples"
+  externalId = "119906370"
+  integration = { name = "bdwheeler github" }
+  lastUpdated = "2023-07-11T18:58:22.000Z"
+  orgId = "1054647"
+  orgName = "bdwheeler"
   privateRepo = false
-  repoSize = 8228
-  serviceUrl = "https://github.com/tommymarks/terraform-samples"
+  repoSize = 8289
+  serviceUrl = "https://github.com/bdwheeler/terraform-samples"
 }
