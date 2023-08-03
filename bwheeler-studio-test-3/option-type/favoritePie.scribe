@@ -1,0 +1,8 @@
+resource "option-type" "favoritePie" {
+  code = "favoritePie"
+  name = "favorite pie"
+  uuid = "c2c3a0dc-5cc0-4dad-908c-0625b754d02e"
+  fieldContext = "config.customOptions"
+  fieldLabel = "Favorite Pie"
+  fieldName = "favoritePie"
+}
