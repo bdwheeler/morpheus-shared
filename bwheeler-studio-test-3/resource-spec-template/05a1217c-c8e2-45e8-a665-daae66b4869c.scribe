@@ -1,0 +1,9 @@
+resource "resource-spec-template" "05a1217c-c8e2-45e8-a665-daae66b4869c" {
+  name = "tf simple s3"
+  uuid = "05a1217c-c8e2-45e8-a665-daae66b4869c"
+  dateCreated = "2023-06-13T22:56:56.000Z"
+  lastUpdated = "2023-06-13T22:56:56.000Z"
+  template = { uuid = "03051d4f-c075-4595-b0f5-e56e8e9a1d93" }
+  templateType = "Terraform"
+  type = { code = "terraform" }
+}

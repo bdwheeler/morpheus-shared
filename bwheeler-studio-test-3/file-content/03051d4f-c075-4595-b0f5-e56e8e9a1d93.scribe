@@ -1,0 +1,8 @@
+resource "file-content" "03051d4f-c075-4595-b0f5-e56e8e9a1d93" {
+  uuid = "03051d4f-c075-4595-b0f5-e56e8e9a1d93"
+  contentPath = "/Terraform/AWS/simpleS3"
+  dateCreated = "2023-06-13T22:56:56.000Z"
+  lastUpdated = "2023-06-13T22:56:56.000Z"
+  repository = { name = "morpheus-automation-examples" }
+  sourceType = "repository"
+}

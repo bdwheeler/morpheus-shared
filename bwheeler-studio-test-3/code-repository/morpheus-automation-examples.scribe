@@ -1,0 +1,17 @@
+resource "code-repository" "morpheus-automation-examples" {
+  name = "morpheus-automation-examples"
+  uuid = "c39d48da-d90b-4b7b-9b02-8002a40ae258"
+  codeLanguage = "PowerShell"
+  dateCreated = "2022-04-08T16:58:03.000Z"
+  defaultBranch = "main"
+  description = "Sample Automation Scripts. For reference only, not production ready!"
+  displayName = "gomorpheus/morpheus-automation-examples"
+  externalId = "317656293"
+  integration = { name = "bdwheeler github" }
+  lastUpdated = "2023-08-02T13:38:13.000Z"
+  orgId = "14235097"
+  orgName = "gomorpheus"
+  privateRepo = false
+  repoSize = 2494
+  serviceUrl = "https://github.com/gomorpheus/morpheus-automation-examples"
+}
