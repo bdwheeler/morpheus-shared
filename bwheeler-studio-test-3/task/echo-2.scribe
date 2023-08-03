@@ -1,0 +1,9 @@
+resource "task" "echo-2" {
+  code = "echo-2"
+  name = "echo hello 2"
+  uuid = "8a18342e-7821-4d7f-bf70-4d8fe959cbc0"
+  dateCreated = "2023-06-14T19:20:11.000Z"
+  executeTarget = "resource"
+  lastUpdated = "2023-06-14T19:20:11.000Z"
+  taskType = { code = "script" }
+}
