@@ -6,4 +6,8 @@ resource "instance-type" "kube-resource" {
   deploymentService = ""
   environmentPrefix = "KUBE_RESOURCE"
   labels = [ "export" ]
+  layouts = [
+    { code = "7dbda86a-6199-4bec-a521-763f9cff914b" },
+    { code = "e26d845e-bd5b-494e-bf80-b0905b483527" }
+  ]
 }
