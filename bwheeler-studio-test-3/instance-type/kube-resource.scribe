@@ -1,0 +1,9 @@
+resource "instance-type" "kube-resource" {
+  code = "kube-resource"
+  name = "Kube Resource"
+  uuid = "c6368ab5-333b-4fa9-8fe8-6587178bab7d"
+  category = "web"
+  deploymentService = ""
+  environmentPrefix = "KUBE_RESOURCE"
+  labels = [ "export" ]
+}
