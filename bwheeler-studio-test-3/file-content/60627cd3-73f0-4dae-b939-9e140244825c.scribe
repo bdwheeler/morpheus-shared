@@ -1,0 +1,42 @@
+resource "file-content" "60627cd3-73f0-4dae-b939-9e140244825c" {
+  uuid = "60627cd3-73f0-4dae-b939-9e140244825c"
+  content = <<EOFSCRIBE
+#variables
+variable "access_key" {
+  sensitive = true
+}
+
+variable "secret_key" {
+  sensitive = true
+}
+
+variable "efsName" {
+  type = string
+  default = "<%=input.name%>"
+}
+
+variable "environment" {
+  type = string
+  default = "<%=input.instanceContext%>"
+}
+
+### Initialize Providers
+provider "aws" {
+  access_key = var.access_key
+  secret_key = var.secret_key
+  region = "us-east-1"
+}
+
+### resource
+resource "aws_efs_file_system" "efs" {
+  performance_mode = "generalPurpose"
+  throughput_mode = "bursting"
+  tags = {
+    Name = var.efsName
+    Environment = var.environment
+  }
+}
+EOFSCRIBE
+  dateCreated = "2023-04-18T20:35:31.000Z"
+  lastUpdated = "2023-07-28T17:33:02.000Z"
+}

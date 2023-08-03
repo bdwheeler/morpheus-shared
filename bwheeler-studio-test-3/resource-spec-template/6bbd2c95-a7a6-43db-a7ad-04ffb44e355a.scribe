@@ -1,0 +1,11 @@
+resource "resource-spec-template" "6bbd2c95-a7a6-43db-a7ad-04ffb44e355a" {
+  name = "bunge-efs-spec"
+  uuid = "6bbd2c95-a7a6-43db-a7ad-04ffb44e355a"
+  category = "bunge"
+  config = { terraform = { tfVersion = "" } }
+  dateCreated = "2023-04-18T20:35:31.000Z"
+  lastUpdated = "2023-07-28T17:33:02.000Z"
+  template = { uuid = "60627cd3-73f0-4dae-b939-9e140244825c" }
+  templateType = "Terraform"
+  type = { code = "terraform" }
+}
