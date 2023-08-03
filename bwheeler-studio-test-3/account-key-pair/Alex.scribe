@@ -1,0 +1,16 @@
+resource "account-key-pair" "Alex" {
+  name = "Alex"
+  uuid = "ebf93009-a003-4be3-a238-c9735ed1bf16"
+  accountId = 1
+  dateCreated = "2023-02-03T20:00:11.000Z"
+  externalId = "key-061a8f123c741a81f"
+  internalId = "23:fa:4c:ab:51:18:4d:1d:25:5d:b9:fd:f7:4c:e0:98:95:65:32:51"
+  itemSource = "sync"
+  lastUpdated = "2023-04-19T19:13:21.000Z"
+  providerId = "key-061a8f123c741a81f"
+  publicFingerprint = "23:fa:4c:ab:51:18:4d:1d:25:5d:b9:fd:f7:4c:e0:98:95:65:32:51"
+  refId = 4
+  refName = "AWS Labs Dev"
+  refType = "computeZone"
+  scope = "account"
+}

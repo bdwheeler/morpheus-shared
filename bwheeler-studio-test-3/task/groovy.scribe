@@ -1,0 +1,11 @@
+resource "task" "groovy" {
+  code = "groovy"
+  name = "temp groovyUrl"
+  uuid = "c79cdf55-158a-4b59-b422-44ecf69023af"
+  dateCreated = "2023-07-11T19:07:48.000Z"
+  executeTarget = "local"
+  labels = [ "temp" ]
+  lastUpdated = "2023-07-11T19:07:48.000Z"
+  resultType = "value"
+  taskType = { code = "groovyTask" }
+}
