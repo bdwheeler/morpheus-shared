@@ -1,0 +1,11 @@
+resource "container-type" "nutanix-prism-provision-provider-1.0" {
+  code = "nutanix-prism-provision-provider-1.0"
+  name = "Nutanix Prism Central"
+  uuid = "9b9152cb-933f-4dc5-bf0f-00b94f3cb21f"
+  category = "cloud"
+  containerVersion = "1.0"
+  provisionType = { code = "nutanix-prism-provision-provider" }
+  serverType = "vm"
+  shortName = "nutanix-prism-central"
+  showServerLogs = true
+}

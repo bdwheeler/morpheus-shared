@@ -1,0 +1,12 @@
+resource "instance-type-layout" "nutanix-prism-1.0-single" {
+  code = "nutanix-prism-1.0-single"
+  name = "Nutanix Prism Central VM"
+  uuid = "7966d9fc-422e-49a3-9ed9-b90b15cc95f3"
+  description = "This will provision a single vm"
+  instanceType = { code = "nutanix-prism-provision-provider" }
+  instanceVersion = "1.0"
+  optionTypes = [ { code = "nutanix-prism-provision-categories" } ]
+  portCount = 0
+  provisionType = { code = "nutanix-prism-provision-provider" }
+  workloads = [ { code = "nutanix-prism-1.0-set" } ]
+}

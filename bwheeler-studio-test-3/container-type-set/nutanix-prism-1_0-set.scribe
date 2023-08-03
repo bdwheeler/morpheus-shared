@@ -1,0 +1,6 @@
+resource "container-type-set" "nutanix-prism-1.0-set" {
+  code = "nutanix-prism-1.0-set"
+  uuid = "b6ec6b50-dcd4-4ecd-982b-5e14558b4c68"
+  dynamicCount = true
+  workloadType = { code = "nutanix-prism-provision-provider-1.0" }
+}
