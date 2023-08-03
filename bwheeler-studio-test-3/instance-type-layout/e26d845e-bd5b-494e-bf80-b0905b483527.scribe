@@ -1,0 +1,11 @@
+resource "instance-type-layout" "e26d845e-bd5b-494e-bf80-b0905b483527" {
+  code = "e26d845e-bd5b-494e-bf80-b0905b483527"
+  name = "kube ingress qa"
+  uuid = "0df84384-3ec4-4b75-8961-1ea32afb9241"
+  hasAutoScale = false
+  instanceType = { code = "kube-resource" }
+  instanceVersion = "1.0"
+  memoryRequirement = 0
+  provisionType = { code = "kubernetes" }
+  workloads = [ { code = "928a1615-0a2f-46d2-a637-963e70a79635" } ]
+}

@@ -1,5 +1,5 @@
 resource "container-type-set" "928a1615-0a2f-46d2-a637-963e70a79635" {
   code = "928a1615-0a2f-46d2-a637-963e70a79635"
-  uuid = "5eadeb62-622b-4334-bf39-d0d36db80aad"
+  uuid = "d5b5136c-c32c-41be-8067-fda395eade4e"
   workloadType = { code = "928a1615-0a2f-46d2-a637-963e70a79635" }
 }
