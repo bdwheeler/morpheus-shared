@@ -1,0 +1,18 @@
+resource "container-type" "nutanix-prism-ubuntu-20.04-test" {
+  code = "nutanix-prism-ubuntu-20.04-test"
+  name = "Ubuntu 20.04"
+  uuid = "3e296924-ce58-4d5e-b13e-33511177fc4d"
+  category = "ubuntu"
+  backupType = "nutanixPrismSnapshot"
+  checkTypeCode = "containerCheck"
+  cloneType = "ubuntu"
+  containerVersion = "20.04"
+  imageCode = "morpheus ubuntu 20.04"
+  logTypeCode = "ubuntu"
+  mountLogs = "/var/log"
+  providerType = "nutanix-prism"
+  serverType = "vm"
+  shortName = "ubuntu"
+  showServerLogs = true
+  statTypeCode = "vm"
+}
