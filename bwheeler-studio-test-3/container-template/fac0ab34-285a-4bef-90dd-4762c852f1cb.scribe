@@ -1,0 +1,11 @@
+resource "container-template" "fac0ab34-285a-4bef-90dd-4762c852f1cb" {
+  code = "fac0ab34-285a-4bef-90dd-4762c852f1cb"
+  name = "bw-test-template-3"
+  uuid = "7d9b1892-c72f-41e5-8caa-4b0b78e0a03c"
+  dateCreated = "2023-06-13T16:13:49.000Z"
+  fileName = "hello-3.txt"
+  filePath = "/tmp"
+  labels = [ "qa", "test" ]
+  lastUpdated = "2023-06-13T16:13:49.000Z"
+  template = "hello 3"
+}
