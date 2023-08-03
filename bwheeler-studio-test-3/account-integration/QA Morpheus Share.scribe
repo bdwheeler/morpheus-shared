@@ -1,0 +1,9 @@
+resource "account-integration" "QA Morpheus Share" {
+  name = "QA Morpheus Share"
+  uuid = "c893454a-2755-487f-a1ec-f150ed1a5f43"
+  category = "cm-server"
+  config = { cacheEnabled = false, defaultBranch = "main" }
+  integrationType = { code = "git" }
+  serviceUrl = "https://github.com/tommymarks/qa-morpheus-share.git"
+  type = "git"
+}
